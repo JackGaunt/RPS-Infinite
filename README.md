@@ -1,14 +1,12 @@
 # RPS-Infinite
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-		<li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#code-description">Code Description</a></li>
-    <li><a href="#grid-visualization">Grid Visualization</a></li>
-    <li><a href="#whats-the-point">What's the Point?</a></li>
-  </ol>
-</details>
+Table of Contents
+<ol>
+	<li><a href="#about-the-project">About The Project</a></li>
+<li><a href="#code-description">Code Description</a></li>
+<li><a href="#grid-visualization">Grid Visualization</a></li>
+<li><a href="#whats-the-point">What's the Point?</a></li>
+</ol>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -38,18 +36,24 @@ The computer's calculated move and the human's move are then added together.
 
 <!-- GRID VISUALIZATION -->
 ## Grid Visualization
-![Grid Visualization](/RPS_Visualization.png)
+H = Human move
+C = Computer move
+* If box blue, human wins.
+* If box orange, computer wins.
+* If box grey, draw.
+![RPS_Visualization](https://user-images.githubusercontent.com/90910858/133790035-72855149-c627-43e0-87c0-2be01ffec42a.PNG)
 
 
 <!-- What's the Point? -->
-## What's the Point
+## What's the Point?
 Using this code for an actual RPS program makes no sense. 
 It is much easier and faster to just say, if the human move is greater than the computer move and not less than the total number of moves / 2, human wins.
 This would make the code even smaller, faster, simpler, and able to use more moves than this code ever could.
 (Right now, it caps at 2001 because the computer can't automatically square a number bigger than that)
 
 This code is more of a question to myself? I had a thought and wondered if it made sense. 
-It did, and I was able to make a pretty short script. 
+It did, and I was able to make a pretty short script to prove my theory.
+Maybe this idea will be useful in the future, but for now, it's best proof of concept is an unoptimized RPS program.
 
 The best part is that I can put this on my personal GitHub account for some quick satisfaction.
 I can also test out GitHub for personal use as I've only used it for work.
