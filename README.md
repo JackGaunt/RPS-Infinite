@@ -27,7 +27,8 @@ The user is asked for a size of the game. This must be an odd number and greater
 
 The user can then choose their move and the computer chooses theirs using the random package.
 
-The computer's calculated move is the chosen move multiplied by (2 to the power of num_moves - 1) / 2.
+The computer's calculated move is chosen randomly between 1 and the number of moves inclusive.
+The computer's move is then multiplied by 2 to the power of (num_moves - 1) / 2 to get the computer's calculated move.
 
 The computer's calculated move and the human's move are then added together.
 * If that number modulo the number of moves is equal to 0, there is a draw.
@@ -41,7 +42,8 @@ C = Computer move
 * If box blue, human wins.
 * If box orange, computer wins.
 * If box grey, draw.
-![RPS_Visualization](https://user-images.githubusercontent.com/90910858/133790035-72855149-c627-43e0-87c0-2be01ffec42a.PNG)
+![RPS_Visualization](https://user-images.githubusercontent.com/90910858/150020392-547d233f-e92b-4536-8986-fcd06834bcfd.png)
+
 
 
 <!-- What's the Point? -->
