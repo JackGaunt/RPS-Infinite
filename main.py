@@ -34,9 +34,16 @@ def play_game():
             else:
                 break
         except:
-            print("Move must be an integer\n")
+            print("Move must be an integer")
 
     print(rps(h_move, options))
+    
+    again = input("Play again? (y/n)\n").lower()
+    if again == "y" or again == "yes":
+        play_game()
+    else:
+        print("Game End")
+    
 
 
 # see excel file for a visualization of how the code works
